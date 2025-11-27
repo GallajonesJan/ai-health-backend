@@ -1,0 +1,26 @@
+heart_rate,spo2,age,status
+85,95,70,Normal
+120,88,75,At Risk
+70,92,80,Slightly Normal
+95,97,68,Normal
+110,89,78,At Risk
+100,93,72,Slightly Normal
+78,96,69,Normal
+125,85,82,At Risk
+88,94,74,Slightly Normal
+92,98,71,Normal
+105,90,77,Slightly Normal
+130,82,85,At Risk
+75,97,66,Normal
+115,91,79,Slightly Normal
+80,95,67,Normal
+118,87,76,At Risk
+90,93,73,Slightly Normal
+97,96,70,Normal
+123,84,81,At Risk
+85,95,68,Normal
+108,92,75,Slightly Normal
+72,98,69,Normal
+127,83,83,At Risk
+94,94,72,Slightly Normal
+88,97,71,Normal
