@@ -30,12 +30,15 @@ client = OpenAI(api_key=OPENAI_API_KEY) if OPENAI_API_KEY else None
 def get_db_connection():
     try:
         db_config = {
-            "host": os.getenv("DB_HOST", "localhost"),
-            "user": os.getenv("DB_USER", "marinell"),
-            "password": os.getenv("DB_PASSWORD", "marinellendaya"),
-            "database": os.getenv("DB_NAME", "ai_health_db"),
-            "connect_timeout": 10
-        }
+    "host": os.getenv("DB_HOST", "localhost"),
+    "user": os.getenv("DB_USER", "root"),
+    "password": os.getenv("DB_PASSWORD", ""),
+    "database": os.getenv("DB_NAME", "railway"),
+    "port": int(os.getenv("DB_PORT", 3306)),
+    "connect_timeout": 10
+}
+
+
         
         # Add SSL for cloud databases if needed
         db_ssl = os.getenv("DB_SSL")
